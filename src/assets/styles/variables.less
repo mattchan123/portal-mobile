@@ -1,0 +1,31 @@
+@bgColor: #0497f4;
+@fontColor: #868686;
+@lightGrayColor: #ccc;
+@normalFontSize: .34rem;
+.df-center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.df-column-center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.df-not-center(@type){
+	display: flex;
+	align-items: center;
+	justify-content: @type;
+}
+.gray-color-font{
+	font-size: 1.4rem;
+	color: @fontColor;
+}
+.black-color-font{
+	font-size: 1.6rem;
+}
+.blue-color-font{
+	font-size: 1.6rem;
+	color: @bgColor;
+}
