@@ -72,7 +72,6 @@ export default {
   height: .88rem;
   padding: 0.16rem 0.24rem;
   background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: .08rem;
   align-items: center;
@@ -81,7 +80,16 @@ export default {
   .search-button{
     color: @bgColor;
     font-size: @normalFontSize;
-    margin-left:.3rem;
+    margin-left:.4rem;
+  }
+  .i1 {
+    background-color: #F3F4F7;
+    margin-right: .16rem;
+    margin-left: .2rem;
+  }
+  .i2 {
+    padding: 0 .24rem;
+    font-size: .4rem;
   }
   .search {
     flex: 1;
@@ -93,29 +101,10 @@ export default {
 			.df-center();
       font-size: 0.4rem;
     }
-    .i1 {
-      background-color: #F3F4F7;
-      margin-right: .16rem;
-      margin-left: .24rem;
-    }
-    .i2 {
-      padding: 0 .24rem;
-    }
     &-icon {
       width: 0.4rem;
       height: 0.4rem;
       margin: 0.09rem 0.1rem 0 0.16rem;
-    }
-    &-drag-icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img{
-        width: 0.48rem;
-        height: 0.48rem;
-        margin-left:.24rem;
-        // margin-top:.08rem;
-      }
     }
     &-input {
       flex: 1;

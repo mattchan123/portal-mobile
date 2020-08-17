@@ -1,0 +1,11 @@
+.gray-color-font {
+  font-size: 1.4rem;
+  color: #666;
+}
+.black-color-font {
+  font-size: 1.6rem;
+}
+.blue-color-font {
+  font-size: 1.6rem;
+  color: #0497f4;
+}
